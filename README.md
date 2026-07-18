@@ -1,2 +1,3 @@
 # Programacion-de-sistemas
-Este es un repositorio donde creare scripts random que me serviran tanto para practicar como para automatizar mi dia a dia son proyectos en C, C++ o Rust
+Repositorio personal de experimentación donde desarrollo pequeños programas y herramientas en C, C++ y Rust.
+El objetivo es practicar programación de sistemas, explorar nuevos lenguajes y crear utilidades que automaticen tareas de mi día a día.
