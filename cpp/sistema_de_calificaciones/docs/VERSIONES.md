@@ -13,3 +13,7 @@ En esta versión comencé a separar la lógica en funciones para mantener el có
 Mi siguiente paso será dividir el proyecto en varios archivos (`.cpp` y `.h`), ya que considero que tener todas las funciones en un solo archivo no es una buena práctica cuando el proyecto empieza a crecer.
 
 Aunque el avance todavía es pequeño, siento que estoy aprendiendo mucho sobre C++ y la forma de estructurar programas de una manera más limpia.
+
+----
+
+# Proyecto v0.1.2
