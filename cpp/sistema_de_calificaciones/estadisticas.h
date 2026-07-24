@@ -1,1 +1,1 @@
-int determinarPromedio(int x);
+int determinarPromedio();

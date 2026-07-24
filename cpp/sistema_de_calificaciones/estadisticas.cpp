@@ -1,15 +1,16 @@
 #include <cstdio>
 #include <iostream>
 
-
-float determinarPromedio(int x) {
-    float nota[x];
+float determinarPromedio() {
+    float nota[10];
+    std::string estudiante[10];
     int num = sizeof(nota) / sizeof(nota[0]);
 
     float suma = 0;
     float promedio = 0;
 
     for(int i = 0; i < num; i++) {
+        std::cout<< "Ingrese el nombre del estudiante " << i + 1 << std::endl;
         std::cout << "Ingrese la nota " << i + 1 << std::endl;
         std::cin >> nota[i];
     }

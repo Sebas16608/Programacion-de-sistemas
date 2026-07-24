@@ -6,8 +6,6 @@ int main() {
     // Inicializar app CLI
     std::cout<<"==== BIENVENIDO AL PROGRAMA ====="<<std::endl;
     int cantidad;
-    std::cout<<"Por favor ingrese el numero de notas a registrar "<< std::endl;
-    std::cin >> cantidad;
-    determinarPromedio(cantidad);
+    determinarPromedio();
     return 0;
 }
