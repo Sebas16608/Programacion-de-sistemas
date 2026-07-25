@@ -1,3 +1,7 @@
+> **⚠️ Disclaimer:** A partir de esta documentación, se planea refactorizar todo el código fuente de C++ a C puro. Las versiones anteriores (v0.1, v0.1.1, v0.1.2) están escritas en C++, pero el código será migrado a C para el siguiente release. Los archivos `.cpp` pasarán a ser `.c`, y se reemplazarán las cabeceras de C++ (`iostream`, `string`) por sus equivalentes en C (`stdio.h`, `stdlib.h`, `string.h`).
+
+---
+
 # Proyecto v0.1
 
 Esta es la primera versión del proyecto. Aunque todavía es pequeña, representa un gran avance para mí porque ya comencé a definir la estructura que seguirá el sistema.

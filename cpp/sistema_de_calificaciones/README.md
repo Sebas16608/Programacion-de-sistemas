@@ -1,6 +1,6 @@
-# Proyecto 1 – Sistema de Registro de Calificaciones (C++)
+# Proyecto 1 – Sistema de Registro de Calificaciones (C)
 
-## Objetivo: desarrollar un programa en C++ para registrar y analizar las calificaciones de 10
+## Objetivo: desarrollar un programa en C para registrar y analizar las calificaciones de 10
 estudiantes usando únicamente conceptos básicos.
 
 ### Requisitos
@@ -16,9 +16,9 @@ estudiantes usando únicamente conceptos básicos.
 - Cantidad de reprobados.
 
 ### Restricciones
-No usar vector, map, set, sort, class, struct, punteros, referencias como parámetros, new/delete.
+No usar punteros a funciones, `malloc`/`free` dinámico, `struct` con punteros complejos, ni librerías externas.
 Sí podés usar
-iostream, string, variables, arreglos, funciones, if, switch, for, while y do-while.
+`stdio.h`, `stdlib.h`, `string.h`, variables, arreglos, funciones, `if`, `switch`, `for`, `while` y `do-while`.
 
 ### Bonus
 1. Validar notas entre 0 y 100.
@@ -37,10 +37,10 @@ sistema_de_calificaciones/
 ├── docs/
 │   └── VERSIONES.md
 └── src/
-    ├── main.cpp
-    ├── alumnos.cpp
+    ├── main.c
+    ├── alumnos.c
     ├── alumnos.h
-    ├── estadisticas.cpp
+    ├── estadisticas.c
     ├── estadisticas.h
     └── entradas.h
 ```
