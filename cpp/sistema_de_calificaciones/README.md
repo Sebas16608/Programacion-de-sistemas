@@ -25,3 +25,31 @@ iostream, string, variables, arreglos, funciones, if, switch, for, while y do-wh
 2. Agregar menú.
 3. Buscar estudiante por nombre.
 4. (Opcional) Editar la nota de un estudiante.
+
+---
+
+## Estructura del proyecto
+
+```
+sistema_de_calificaciones/
+├── CMakeLists.txt
+├── README.md
+├── docs/
+│   └── VERSIONES.md
+└── src/
+    ├── main.cpp
+    ├── alumnos.cpp
+    ├── alumnos.h
+    ├── estadisticas.cpp
+    ├── estadisticas.h
+    └── entradas.h
+```
+
+## Compilación
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+./sistema_de_calificaciones
+```

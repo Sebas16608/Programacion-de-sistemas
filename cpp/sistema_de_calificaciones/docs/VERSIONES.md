@@ -17,3 +17,11 @@ Aunque el avance todavía es pequeño, siento que estoy aprendiendo mucho sobre 
 ----
 
 # Proyecto v0.1.2
+
+En esta versión reestructuré el proyecto para seguir una organización más profesional:
+
+- **CMake**: Se agregó un `CMakeLists.txt` para compilar el proyecto con CMake, permitiendo una gestión más robusta del proceso de compilación.
+- **Carpeta `src/`**: Todos los archivos fuente (`.cpp` y `.h`) se movieron a una carpeta `src/` separada del directorio raíz, siguiendo la convención estándar de proyectos en C++.
+- **Módulos**: Se consolidaron los módulos `alumnos`, `estadisticas` y `entradas` dentro de `src/`.
+
+Esta reorganización facilita el mantenimiento y la escalabilidad del proyecto a medida que se agreguen más funcionalidades.

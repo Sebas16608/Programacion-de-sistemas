@@ -3,7 +3,6 @@
 
 float determinarPromedio() {
     float nota[10];
-    std::string estudiante[10];
     int num = sizeof(nota) / sizeof(nota[0]);
 
     float suma = 0;
@@ -21,5 +20,5 @@ float determinarPromedio() {
 
     std::cout<<"El promedio es "<< promedio << std::endl;
 
-    return 0;
+    return promedio;
 }
