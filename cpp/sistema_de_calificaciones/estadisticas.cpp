@@ -10,7 +10,6 @@ float determinarPromedio() {
     float promedio = 0;
 
     for(int i = 0; i < num; i++) {
-        std::cout<< "Ingrese el nombre del estudiante " << i + 1 << std::endl;
         std::cout << "Ingrese la nota " << i + 1 << std::endl;
         std::cin >> nota[i];
     }
