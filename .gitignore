@@ -1,0 +1,69 @@
+# ===========================
+# Archivos compilados
+# ===========================
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Ejecutables sin extensión (Linux)
+main
+program
+a.out
+
+# ===========================
+# CMake
+# ===========================
+build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# ===========================
+# Ninja
+# ===========================
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ===========================
+# IDEs
+# ===========================
+.vscode/
+.idea/
+.zed/
+
+# ===========================
+# Cache
+# ===========================
+.cache/
+
+# ===========================
+# Archivos temporales
+# ===========================
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+
+# ===========================
+# Windows
+# ===========================
+Thumbs.db
