@@ -35,7 +35,18 @@ Esta reorganización facilita el mantenimiento y la escalabilidad del proyecto a
 En esta versión completé la migración de C++ a C puro:
 
 - **Directorio `cpp/` → `c/`**: Todo el proyecto fue reubicado para reflejar el cambio de lenguaje.
-- **Archivos `.cpp` → `.c`**: Se crearon `main.c`, `estadisticas.c` y `alumnos.c`. Los archivos `.cpp` restantes quedan como referencia histórica.
+- **Archivos `.cpp` → `.c`**: Se crearon `main.c`, `estadisticas.c` y `alumnos.c`.
 - **Headers actualizados**: `estadisticas.h` ahora usa include guards (`#ifndef`/`#define`/`#endif`) y la función `determinarPromedio` fue migrada a C con parámetros `float nota[]` e `int num`.
 - **CMakeLists.txt**: Configurado para compilar archivos `.c` con el estándar C11.
 - **`alumnos.c`**: Nuevo módulo que encapsula la carga de datos de estudiantes usando `printf`/`scanf`.
+
+---
+
+# Proyecto v0.2.1
+
+Limpieza de archivos obsoletos y mejora en la organización del repositorio:
+
+- **Eliminación de `main.cpp`**: Se borró el archivo `main.cpp` ya que el proyecto fue migrado completamente a C.
+- **Eliminación de `entradas.h`**: Se removió este header que ya no formaba parte del proyecto.
+- **`.gitignore` raíz**: Se agregó un archivo `.gitignore` en la raíz del repositorio para excluir archivos compilados, directorios de build (`build/`, `.cache/`), archivos temporales y configuraciones de IDEs.
+- **Documentación actualizada**: Se corrigió la estructura del proyecto en el README eliminando referencias a archivos que ya no existen.

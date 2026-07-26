@@ -41,8 +41,7 @@ sistema_de_calificaciones/
     ├── alumnos.c
     ├── alumnos.h
     ├── estadisticas.c
-    ├── estadisticas.h
-    └── entradas.h
+    └── estadisticas.h
 ```
 
 ## Compilación
