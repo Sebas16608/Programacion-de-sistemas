@@ -6,4 +6,9 @@ void ingresarAlumnos(
     int cantidad
 );
 
+void ingresarNota(
+    float nota[],
+    int cantidad
+);
+
 #endif

@@ -14,9 +14,9 @@ int main(){
     // Inicializacion de la app
     printf("==== BIENVENIDO AL PROGRAMA ====\n");
 
-
     // llamada a las funciones, para ingresar alumos y para el iincio de las estadisticas
     ingresarAlumnos(alumnos, cantidad);
+    ingresarNota(nota, cantidad);
     determinarPromedio(nota, cantidad);
 
     return 0;
